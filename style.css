@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 6s;
+    /* animation-delay: 2s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes changeColor {
+    0%{
+        background-color: aqua;
+        margin-left: 400px;
+        margin-top: 200px;
+    } 15% {
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+        margin-left: 400px;
+        margin-top: 200px;
+    } 25% {
+        background-color: rgb(8, 105, 105);
+        width: 200px;
+        height: 200px;
+        margin-left: 800px;
+        margin-top: 200px;
+
+
+    } 35% {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        margin-left: 1200px;
+        margin-top: 200px;
+
+
+    } 45% {
+        background-color: rgb(6, 6, 107);
+        width: 200px;
+        height: 200px;
+        margin-left: 1200px;
+        margin-top: 300px;
+
+    } 55% {
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        margin-left: 1200px;
+        margin-top: 600px;
+
+    } 65% {
+        background-color: rgb(0, 173, 104);
+        width: 200px;
+        height: 200px;
+        margin-left: 1200px;
+        margin-top: 600px;
+
+    } 75% {
+        background-color: rgb(255, 0, 0);
+        width: 200px;
+        height: 200px;
+        margin-left: 800px;
+        margin-top: 600px;
+
+
+    } 85% {
+        background-color: rgb(0, 255, 8);
+        width: 200px;
+        height: 200px;
+        margin-left: 400px;
+        margin-top: 600px;
+
+
+    } 95% {
+        background-color: rgb(255, 11, 222);
+        width: 200px;
+        height: 200px;
+        margin-left: 400px;
+        margin-top: 300px;
+
+
+    } 100% {
+        background-color: rgb(114, 119, 63);
+        width: 200px;
+        height: 200px;
+        margin-left: 400px;
+        margin-top: 200px;
+    }
+    
+ }
